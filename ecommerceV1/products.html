@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="filter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=Cinzel:wght@400;600&family=Inria+Serif:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- CTA -->  
+<div class="cta">
+    Find the perfect gift for mom! <span> Shop Now </span>
+</div>
+<!-- Navigation start-->
+<header class="outer-container">
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html" target="_blank"><img src="Add a little bit of body text (1).png" alt="DevBabu.com"></a>
+        </div>
+            <div class="navbar">
+                <div class="close-nav"><button>×</button></div>
+                    <nav>
+                         <ul>
+                            <li><a href="products.html" target="_blank">Shop</a></li>
+                            <li><a href="index.html#about" target="_blank"> About </a></li>
+                            <li><a href="#"> Contact </a></li>
+                            <li><a href="#">Wishlist </a></li>
+                            <li><a href="#"> Bag (0) </a></li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="menu-bar">
+                <button><i></i></button>
+            </div>
+    </div>
+</header>
+<!-- Navigation end-->
+
+
+    <section id="categories">
+        <h3 class= "category-title activee" id="all"> All </h3>
+
+        <h3 class="category-title tabs" id="necklace"> Necklaces </h3>
+     
+        <h3 class="category-title tabs" id="earring"> Earrings</h3>
+    
+        <h3 class="category-title tabs" id="ring"> Rings </h3>
+     
+        <h3 class="category-title tabs" id="bracelets"> Bracelets </h3>
+         
+    </section>
+
+    <div class="products">
+
+
+    </div>
+   
+
+    <section class="instagram center">
+        <h4 class="ig-header">
+           Imagination meet real life
+        </h4>
+        <h5 class="ig-header">
+          @instagram 
+        </h5>
+        <div class="ig-imgs-container">
+             <img src="instagram/10 Minimalist Fine Jewelry Brands For Everyday Wear  — The Good Trade.jpeg" alt="" class="hiddenn instagram-img">
+            <img src="instagram/9c198b079545b1be6ec2bf672694cbf5.jpeg" alt="" class="instagram-img2 hiddenn">
+            <img src="instagram/gold rings nails aesthetic.jpeg" alt="" class="instagram-img2">
+            <img src="instagram/The Single Coin Necklace Stack II.jpeg" alt="" class="instagram-img2">
+            <img src="instagram/Alighieri The Anchor in the Storm 24K Gold-Plated Choker.jpeg" alt="" class="instagram-img2">
+            <img src="instagram/Leonie Earrings.jpeg" class="instagram-img2" alt="">
+        </div>
+    </section>
+    
+    
+    
+    <footer>
+    <section class="footer light-bg">
+    
+       <div class="footerlinks">
+        <h2 class="footerheader">  Shop </h2>
+        <a href=""> Necklaces </a>
+        <a href=""> Earrings </a>
+        <a href=""> Rings </a>
+        <a href=""> Bracelets  </a>
+        <a href=""> Best Sellers </a>
+        <a href=""> New Arrivals </a>
+       </div>
+    
+       <div class="footerlinks">
+        <h2 class="footerheader">  Support </h2>
+        <a href=""> Shipping + Returns  </a>
+        <a href=""> Terms + Conditions  </a>
+        <a href=""> Privacy Policy  </a>
+        <a href=""> FAQ </a>
+       </div>
+      
+       <div class="footerlinks">
+        <h2 class="footerheader"> Social  </h2>
+        <a href=""> Instagram </a>
+        <a href=""> Facebook </a>
+        <a href=""> Twitter </a>
+     
+       </div>
+    
+        
+       <div class="footerlinks email">
+        <h2 class="footerheader"> Sign up for our newsletter <br>
+            and get a 10% discount </h2>
+    <input type="text" placeholder="Enter Your Email" >
+     <p class="mute">
+        Be the first to know about exclusive drops and promotions
+     </p>
+       </div>
+     
+    </section>
+    </footer>
+    <script>
+        const theBody = document.querySelector('body');
+        const openNav = document.querySelector('.menu-bar button');
+        const closeNav = document.querySelector('.close-nav button');
+        const Navbar = document.querySelector('.navbar');
+    
+        // function bodyScroll(){
+        //     if(Navbar.classList.contains('show')){
+        //         theBody.classList.add('hide-scroll');
+        //     }
+        //     else if(theBody.classList.contains('hide-scroll')){
+        //         theBody.classList.remove('hide-scroll');
+        //     }
+        // }
+    
+        function showHide(){
+            Navbar.classList.toggle('show');
+            // bodyScroll();
+        }
+    
+        openNav.onclick = showHide;
+        closeNav.onclick = showHide;
+    </script>
+
+ 
+    <script src="products.json"></script>
+<script src="products.js"></script>
+
+</body>
+
+</html>

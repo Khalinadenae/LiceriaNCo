@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=Cinzel:wght@400;600&family=Inria+Serif:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CTA -->  
+<div class="cta">
+    Find the perfect gift for mom! <span> Shop Now </span>
+</div>
+<!-- Navigation start-->
+<header class="outer-container">
+    <div class="wrapper">
+        <div class="logo">
+            <a href="#"><img src="Add a little bit of body text (1).png" alt="DevBabu.com"></a>
+        </div>
+            <div class="navbar">
+                <div class="close-nav"><button>×</button></div>
+                    <nav>
+                         <ul>
+                            <li><a href="products.html">Shop</a></li>
+                            <li><a href="#about"> About </a></li>
+                            <li><a href="#"> Contact </a></li>
+                            <li><a href="#">Wishlist </a></li>
+                            <li><a href="#"> Bag (0) </a></li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="menu-bar">
+                <button><i></i></button>
+            </div>
+    </div>
+</header>
+<!-- Navigation end-->
+
+    <div class="containerr">
+        <h2>Contact us</h2>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span class="text">First Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span class="text">Last Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span class="text">Email</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span class="text">Mobile</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox textarea">
+              <textarea required="required"></textarea>
+              <span class="text">Type your message here...</span>
+              <span class="line"></span>
+            </div>
+          </div>
+         </div>
+        <div class="row100">
+          <div class="col">
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </div>
+        
+      <script>
+        const theBody = document.querySelector('body');
+        const openNav = document.querySelector('.menu-bar button');
+        const closeNav = document.querySelector('.close-nav button');
+        const Navbar = document.querySelector('.navbar');
+    
+        // function bodyScroll(){
+        //     if(Navbar.classList.contains('show')){
+        //         theBody.classList.add('hide-scroll');
+        //     }
+        //     else if(theBody.classList.contains('hide-scroll')){
+        //         theBody.classList.remove('hide-scroll');
+        //     }
+        // }
+    
+        function showHide(){
+            Navbar.classList.toggle('show');
+            // bodyScroll();
+        }
+    
+        openNav.onclick = showHide;
+        closeNav.onclick = showHide;
+    </script>
+</body>
+</html>

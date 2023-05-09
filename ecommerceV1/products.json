@@ -1,0 +1,98 @@
+[
+    {
+         "id" : "1", 
+       "image": "productImages/Duo Beaded Stacker Ring.png",
+       "title": "Duo Beaded Stacker Ring",
+       "description": "To answer your question, yes, every jewelry wardrobe requires a beaded ring. It’s our iconic texture that’s loved and stacked by all—so we had no choice but to double it. More is more. Handcrafted in 18k gold vermeil.",
+       "price": "$58",
+       "category" : "ring"
+    },
+    {
+      "id" : "2", 
+       "image": "productImages/Round Topaz Necklace.png",
+       "title": "Round Topaz Necklace",
+       "description": "You’re right, this is the perfect gift. Get them a fresh, clear-cut statement piece that goes with everything they own. Handcrafted in 18k gold vermeil, set with a round cut topaz gemstone.",
+       "price": "$98",
+       "category" : "ring"
+    },
+    {
+      "id" : "3", 
+       "image": "productImages/Sapphire Hoops.png",
+       "title": "Sapphire Hoops",
+       "description": "A new take on classic hoops. Sapphires that move when you move.",
+       "price": "$58" , 
+       "category" : "ring"
+    },
+    {
+      "id" : "4", 
+       "image": "productImages/Bold Herringbone Chain Necklace.png",
+       "title": "Bold Herringbone Chain Necklace",
+       "description": "Lorem ipsum dolor sit amet consectetur.",
+       "price": "$198", 
+       "category" : "necklace"
+    },
+    {
+      "id" : "5", 
+       "image": "productImages/Marquise Topaz Earrings.png",
+       "title": "Marquise Topaz Earrings",
+       "description": "A statement pair of earrings made for showing off. Handcrafted in 18k gold vermeil, a thick layer of 18k gold over sterling silver, with a marquise cut white topaz.",
+       "price": "$98" ,
+       "category" : "necklace"
+    },
+    {
+      "id" : "6", 
+       "image": "productImages/Bold Letter Pendant Necklace.png",
+       "title": "Bold Letter Pendant Necklace",
+       "description": "Sign off your necklace layers with a statement initial that says it all. Handcrafted in 18k gold vermeil with an accordion pattern. Each pendant comes with a 20 to 22-inch cable chain.",
+       "price": "$148" ,
+       "category" : "necklace"
+    },
+    {
+      "id" : "7", 
+        "image": "productImages/Duet Ear Cuff.png",
+        "title": "Duet Ear Cuff",
+        "description": "Not ready to commit to multiple piercings? Take the Duet Ear Cuff for a spin. Handcrafted in gold vermeil, a thick layer of 18k gold over sterling silver with a hollow interior for comfortable wear.",
+        "price": "$48",
+        "category" : "bracelet"
+     },
+     {
+      "id" : "8", 
+        "image": "productImages/Large Croissant Dôme Hoops.png",
+        "title": "Large Croissant Dôme Hoops",
+        "description": "Looking like a French girl isn’t as difficile as it seems. Consider these croissant-inspired hoops to make all your Parisian dreams come true..",
+        "price": "$128" ,
+        "category" : "bracelet"
+     },
+     {
+      "id" : "9", 
+        "image": "productImages/Balance: Terra Coin Pendant Necklace.png",
+        "title": "Balance: Terra Coin Pendant Necklace",
+        "description": "The search for balance doesn’t end here, but this pendant inspired by Greek Goddess Gaia—the mother of Earth and creation—is a reminder of our individual sense of self amongst everyday chaos. Expertly handcrafted in 18k gold vermeil.",
+        "price": "$148",
+        "category" : "earring"
+     },
+     {
+      "id" : "10", 
+        "image": "productImages/Croissant Oval Locket Necklace.png",
+        "title": "Croissant Oval Locket Necklace",
+        "description": "Inspired by the iconic Croissant, this necklace is handcrafted in 18k gold vermeil and features a hidden compartment perfect for a photo photo or engraving of whatever captures your affections these days..",
+        "price": "$148" , 
+        "category" : "earring"
+     },
+     {
+      "id" : "11", 
+        "image": "productImages/Lotus Necklace.png",
+        "title": "Lotus Necklace",
+        "description": "Dress it up or down, this necklace is totally versatile.",
+        "price": "$98" , 
+        "category" : "earring"
+     },
+     {
+      "id" : "12", 
+        "image": "productImages/Sapphire Hoops.png",
+        "title": "Pressed Flower Pavé Diamond Wrap Ring",
+        "description": "Precious metals. Modern and playful, this piece is the statement you’ve waited for. Inspired by the art of pressing flowers, made to be kept on display. Handcrafted in 14k solid gold featuring responsibly sourced diamonds.",
+        "price": "$500" , 
+        "category" : "earring"
+     }
+ ]
