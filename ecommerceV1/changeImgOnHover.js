@@ -1,9 +1,4 @@
-function changeImg(image) {
-    image.src = "ecommerceV1/bestSellersBack/Screen Shot 2023-05-04 at 10.25.37 AM.png";
-}
-function changeImgBack(image) {
-    image.src = "ecommerceV1/bestSellers/Screen Shot 2023-05-04 at 10.25.16 AM.png";
-}
+
 function changeImg2(image) {
     image.src = "ecommerceV1/bestSellersBack/Screen Shot 2023-05-04 at 10.39.22 AM.png";
 }
@@ -66,3 +61,31 @@ function changeImg9(image) {
 function changeImgBack9(image) {
     image.src = "ecommerceV1/bestSellersFront/THE EGYPTIAN Coin Necklace Stack II.png";
 }
+
+//one function that takes in an string - sets src to that string
+
+// onmouseover 
+// onmouseout 
+
+
+// this.image.src
+
+
+//function runs : takes in str, sets str to image source 
+
+
+// onmouseover event
+function showJewelry(str, image){
+    this.image.src= str;
+}
+// onmouseoutevent 
+function showModel(str, image){
+    this.image.src = str;
+}
+
+//function changeImg(image) {
+  //  image.src = "ecommerceV1/bestSellersBack/Screen Shot 2023-05-04 at 10.25.37 AM.png";
+//}
+//function changeImgBack(image) {
+  //  image.src = "ecommerceV1/bestSellers/Screen Shot 2023-05-04 at 10.25.16 AM.png";
+//}
