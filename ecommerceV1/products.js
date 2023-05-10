@@ -1,35 +1,13 @@
-// const categoryTitle = document.getElementsByClassName('category-title tabs')
-
-// let products = []
-//define global variable to get element that was clicked 
-
-// event listener on category title 
- // categoryTitle.addEventListener('click', function(){
-
-   //empty variable 
-
-   // get value of h3 that was clicked 
-
-
-   //update variable with h3 clicked 
-
-   // convert json to array 
-
-
-   // filter array of products based on category 
-
-
-   // update global variable 
-   
-// })
-
 fetch("products.json")
+// using the fetch api to retrieve the json data
 
-.then(function(response){
-   return response.json();
- //  return products = response.json()
+// fetch returns a promise 
+
+.then(function(response){ // promise is handeled by taking the response and convertimng it to JSON object 
+   return response.json(); // convert data to work with it in JS 
+ 
 })
-.then(function(products){
+.then(function(products){ // generates HTML content for the data to be displays in HTML 
    let output = "";
    // if( categoryTitle)
    for(let product of products){
