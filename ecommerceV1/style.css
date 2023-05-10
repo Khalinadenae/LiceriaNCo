@@ -170,7 +170,7 @@ header .logo img {
   padding: 30px;
 }
 
-@media (min-width: 6300px) {
+@media (min-width: 650px) {
   .navbar {
     all: unset;
     display: block;
