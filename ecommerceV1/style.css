@@ -92,6 +92,7 @@ header .logo img {
 
 .navbar.show {
   left: 0 !important;
+  z-index: 2;
 }
 
 .hide-scroll {
@@ -294,7 +295,7 @@ header .logo img {
 .slideshow-wrapper {
   width: 100vw;
   background-color: var(--bg-color);
-  height: 50vh;
+  height: 30vh;
 }
 
 #best-sellers {
